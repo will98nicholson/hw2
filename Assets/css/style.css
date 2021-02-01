@@ -1,3 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 5px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  .container {
+      position: relative;
+      width: 100%;
+  }
+  h1 {
+      position: absolute;
+      top: 200px;
+      left: 0;
+      width: 100%;
+  }
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
 main {
     display: flex;
     flex-wrap: wrap;
@@ -11,3 +47,14 @@ main {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
+  .card header {
+    padding: 20px;
+  }    
