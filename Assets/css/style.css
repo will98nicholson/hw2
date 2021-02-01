@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
