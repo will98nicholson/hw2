@@ -13,12 +13,13 @@
     font-family: Arial;
     margin: 0;
     line-height: 1;
-    background-color:#e8eaf6;
+    background-color:#4cc9f0;
     color: black
   }
   
   header {
-    background: #7986cb;
+    background: #3f37c9;
+    border-radius: 20px;
     color: #fff;
     top: 0;
     left: 0;
@@ -42,13 +43,15 @@
 
   nav {
     display: flex;
-    background-color: #5c6bc0;
+    background-color: #4361ee;
     flex-direction: row;
+    border-radius: 36px;
 
   }
   
   nav a {
     color: #13293d;
+    border-radius: 36px;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -57,7 +60,8 @@
 
 h2 {
   color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: serif;
+  font-stretch: semi-expanded;
   font-size: 30px;
   
 }
@@ -101,20 +105,31 @@ h2 {
     height: 100%;
     object-fit: cover; 
   }
-
-.flex-container {
-
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-margin: 10px;
-width: 100%;
-align-content: center;
+.about-me .bannerimage {
+  display:flex;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 100%;
+  align-items: center;
+  
 }
 
 
+.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  width: 100%;
+  align-content: center;
+  }
+
+
 .card {
+  background: #4895ef;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -130,7 +145,41 @@ align-content: center;
   flex-basis: 100%;
   
 }
-  
+
+address {
+  display: flex;
+  background-color: #4361ee;
+  flex-direction: row;
+  border-radius: 36px;
+}
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.contact h6 {
+  justify-content: center;
+  width: 10%;
+  color: white;
+  border: 5px solid white;
+  border-radius: 36px;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+address a {
+  color: #13293d;
+  border-radius: 36px;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 2s ease-in;
+
+}
+
 @media screen and (max-width=850px) {
   .flex-container,
   nav {
