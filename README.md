@@ -14,9 +14,9 @@ browsers and screens.
 
 ### Visuals
 
-![screenshot top](./assets/images/top.png)
+![screenshot top](./Assets/images/top.png)
 
-![screenshot bottom](./assets/images/bottom.png)
+![screenshot bottom](./Assets/images/bottom.png)
 
 
 
