@@ -12,13 +12,15 @@ The webpage features a picture of Will, links to his work, resume, and
 contact info, and a box-style layout that is optimized for different
 browsers and screens.
 
-### Visuals 
+### Visuals
 
+![screenshot top](./assets/images/top.png)
 
+![screenshot bottom](./assets/images/bottom.png)
 
 
 
 ### Links
-
+[deployedApplication] https://will98nicholson.github.io/hw2/
 
 
