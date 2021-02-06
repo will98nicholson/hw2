@@ -5,8 +5,6 @@
     --primary: #8edc97;
     --light: #ffffff;
     --dark: #1a237e;
-
-    
   }
 
   body {
@@ -113,6 +111,18 @@ h2 {
   width: 100%;
   align-items: center;
   
+}
+.about-me {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  align-items: center;
+}
+.about-me p {
+  justify-content: center;
+}
+h3 , p {
+  text-align: center;
 }
 
 
